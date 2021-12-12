@@ -7,21 +7,6 @@
 		<!-- hero section -->
 		<Hero />
 
-		<!-- service section -->
-		<Service />
-
-		<!-- feature section -->
-		<Feature />
-
-		<!-- team section -->
-		<Team />
-
-		<!-- project gallery -->
-		<Project />
-
-        <!-- newsletter section -->
-        <Newsletter /> 
-
 		<!-- contact us section -->
 		<Contact />
 
@@ -37,11 +22,6 @@
 <script>
 	import Header from "@/components/dcism/Header";
 	import Hero from "@/components/dcism/sections/Hero";
-	import Service from "@/components/dcism/sections/Service";
-	import Feature from "@/components/dcism/sections/Feature";
-	import Team from "@/components/dcism/sections/Team";
-	import Project from "@/components/dcism/sections/Project";
-	import Newsletter from "@/components/dcism/Newsletter";
 	import Contact from "@/components/dcism/sections/Contact";
 	import Footer from "@/components/dcism/Footer";
 	import OffcanvasSearchBox from "@/components/dcism/OffcanvasSearchBox";
@@ -51,11 +31,6 @@
 		components: {
 			Header,
 			Hero,
-			Service,
-			Feature,
-			Team,
-			Project,
-			Newsletter,
 			Contact,
             Footer,
             OffcanvasSearchBox	
